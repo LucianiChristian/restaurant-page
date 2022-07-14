@@ -9,11 +9,11 @@ function homePage() {
     const nav = document.createElement('nav');
     const ul = document.createElement('ul');
     const li1 = document.createElement('li');
-    li1.textContent = 'Home';
+    li1.textContent = 'HOME';
     const li2 = document.createElement('li');
-    li2.textContent = 'Menu';
+    li2.textContent = 'MENU';
     const li3 = document.createElement('li');
-    li3.textContent = 'About';
+    li3.textContent = 'ABOUT';
 
     content.appendChild(nav);
     nav.appendChild(ul);
@@ -23,8 +23,8 @@ function homePage() {
 
     // --------- Main Rendering --------- //
     const main = document.createElement('main');
-    const h3 = document.createElement('h3');
-    h3.textContent = 'LA PANADERIA';
+    const h1 = document.createElement('h1');
+    h1.textContent = 'LA PANADERIA';
     const img = document.createElement('img');
     img.setAttribute('src', '../src/restaurantImage.jpg');
     const hr = document.createElement('hr');
@@ -34,7 +34,7 @@ function homePage() {
     button.textContent = 'VER EL MENU';
 
     content.appendChild(main);
-    main.appendChild(h3);
+    main.appendChild(h1);
     main.appendChild(img);
     main.appendChild(hr);
     main.appendChild(p);
