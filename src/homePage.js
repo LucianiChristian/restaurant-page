@@ -1,3 +1,4 @@
+import './homePage.css';
 export default homePage;
 
 function homePage() {
