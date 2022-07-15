@@ -4,6 +4,6 @@ function menu() {
     const tester = document.createElement('h1');
     tester.textContent = 'menuPage!';
 
-    const container = document.getElementById('content');
-    container.appendChild(tester);
+    const main = document.querySelector('main');
+    main.appendChild(tester);
 }
