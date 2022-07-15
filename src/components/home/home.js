@@ -9,7 +9,7 @@ function home() {
 
     // --------- Home Rendering --------- //
     const h1 = document.createElement('h1');
-    h1.textContent = 'LA PANADERIA';
+    h1.textContent = 'LO-FI CAFE';
     const img = document.createElement('img');
     img.setAttribute('src', restaurantImage);
     const hr = document.createElement('hr');
