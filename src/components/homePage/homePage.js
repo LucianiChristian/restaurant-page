@@ -1,4 +1,6 @@
 import './homePage.css';
+import restaurantImage from './restaurantImage.jpg';
+
 export default homePage;
 
 function homePage() {
@@ -26,7 +28,7 @@ function homePage() {
     const h1 = document.createElement('h1');
     h1.textContent = 'LA PANADERIA';
     const img = document.createElement('img');
-    img.setAttribute('src', '../src/restaurantImage.jpg');
+    img.setAttribute('src', restaurantImage);
     const hr = document.createElement('hr');
     const p = document.createElement('p');
     p.textContent = 'El placer de comer con las manos. Bien tierruo!';
