@@ -19,17 +19,29 @@
 }
 
 nav {
-    padding: 30px;
+    height: 70px;
     border-bottom: 2px solid gold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
     ul {
         display: flex;
         justify-content: center;
         gap: 34px;
 
+        height: 20px;
+
         font-size: 18px;
         list-style: none;
+    }
+
+    li:hover {
+        border-bottom: 2px solid gold;
+        transform: translateY(-2px);
     }
 
     img {
@@ -45,6 +57,26 @@ main {
     align-items: center;
 }
 
+    main > h1 {
+        font-size: 64px;
+    }
+
+    main > img {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    main > p {
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    main > button {
+        border-radius: 8px;
+        padding: 10px 20px;
+
+        background-color: gold;
+    }
 
 footer {
     padding: 30px;
