@@ -1,5 +1,7 @@
-import homePage from './components/homePage/homePage.js';
-import aboutPage from './components/aboutPage/aboutPage.js';
-import menuPage from './components/menuPage/menuPage.js';
+import page from './components/page/page.js';
+import home from './components/home/home.js';
+import about from './components/about/about.js';
+import menu from './components/menu/menu.js';
 
-homePage();
+page();
+home();

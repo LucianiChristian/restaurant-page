@@ -1,8 +1,8 @@
-export default aboutPage;
+export default menu;
 
-function aboutPage() {
+function menu() {
     const tester = document.createElement('h1');
-    tester.textContent = 'aboutPage!';
+    tester.textContent = 'menuPage!';
 
     const container = document.getElementById('content');
     container.appendChild(tester);

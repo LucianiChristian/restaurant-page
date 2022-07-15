@@ -6,6 +6,8 @@
     font-family: sans-serif;
 }
 
+
+
 #content {
     height: 100vh;
 
@@ -56,27 +58,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-
-    main > h1 {
-        font-size: 64px;
-    }
-
-    main > img {
-        padding: 10px;
-        border-radius: 20px;
-    }
-
-    main > p {
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    main > button {
-        border-radius: 8px;
-        padding: 10px 20px;
-
-        background-color: gold;
-    }
 
 footer {
     padding: 30px;

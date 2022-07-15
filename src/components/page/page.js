@@ -1,9 +1,8 @@
-import './homePage.css';
-import restaurantImage from './restaurantImage.jpg';
+import './page.css';
 
-export default homePage;
+export default page;
 
-function homePage() {
+function page() {
     const content = document.getElementById('content');
 
 
@@ -25,22 +24,7 @@ function homePage() {
 
     // --------- Main Rendering --------- //
     const main = document.createElement('main');
-    const h1 = document.createElement('h1');
-    h1.textContent = 'LA PANADERIA';
-    const img = document.createElement('img');
-    img.setAttribute('src', restaurantImage);
-    const hr = document.createElement('hr');
-    const p = document.createElement('p');
-    p.textContent = 'El placer de comer con las manos. Bien tierruo!';
-    const button = document.createElement('button');
-    button.textContent = 'VER EL MENU';
-
     content.appendChild(main);
-    main.appendChild(h1);
-    main.appendChild(img);
-    main.appendChild(hr);
-    main.appendChild(p);
-    main.appendChild(button);
 
     // --------- Footer Rendering --------- //
     const footer = document.createElement('footer');
