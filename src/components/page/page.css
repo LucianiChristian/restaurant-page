@@ -2,8 +2,14 @@
     --bg-color-paper: rgb(242 233 226);
 
     --accent-color-green: rgb(61 128 104);
+    --accent-color-darkGreen: rgb(52, 109, 89);
 
     --font-color-black: rgb(0, 0, 0, 0.9);
+    --font-color-grey: rgb(0, 0, 0, 0.7);
+
+    --border-radius: 20px;
+
+    --box-shadow: 1px 1px 4px grey;
 }
 
 @font-face {
@@ -19,8 +25,12 @@
     font-family: 'Anime', sans-serif;
 }
 
-#content {
+body {
     height: 100vh;
+}
+
+#content {
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -47,17 +57,14 @@ nav {
 
         height: 20px;
 
-        font-size: 18px;
+        font-size: 22px;
         list-style: none;
     }
-
+    
     li:hover {
         border-bottom: 2px solid var(--accent-color-green);
-        transform: translateY(-2px);
-    }
-
-    img {
-        width: 40%;
+        line-height: 1px;
+        cursor: pointer;
     }
 
 main {
@@ -67,11 +74,25 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
+
 footer {
-    padding: 30px;
+    padding: 10px;
+
     border-top: 2px solid var(--accent-color-green);
 
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+    footer > p {
+        font-family: sans-serif;
+    }
+    .gitLogo {
+        width: 40px;
+    }

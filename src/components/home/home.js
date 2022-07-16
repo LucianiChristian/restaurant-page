@@ -1,5 +1,5 @@
 import './home.css';
-import restaurantImage from './restaurantImage.jpg';
+import restaurantImage from './cafe.jpg';
 
 export default home;
 
@@ -9,15 +9,12 @@ function home() {
 
     const img = document.createElement('img');
     img.setAttribute('src', restaurantImage);
+    img.classList.add('home--image');
 
     const hr = document.createElement('hr');
 
     const p = document.createElement('p');
-    p.textContent = 'El placer de comer con las manos. Bien tierruo!';
-    
-    const button = document.createElement('button');
-    button.textContent = 'VER EL MENU';
-
+    p.textContent = '郷け太3情だ賞都アヲラ新選高よひえだ改能ヨ正働じえよ後歳9実現ろ科供ムネ監聞ヒイキ会ろ科供ムネ監聞ヒイキ会';
 
     const main = document.querySelector('main');
     
@@ -25,5 +22,4 @@ function home() {
     main.appendChild(img);
     main.appendChild(hr);
     main.appendChild(p);
-    main.appendChild(button);  
 }
