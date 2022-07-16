@@ -2,6 +2,8 @@
     --bg-color-paper: rgb(242 233 226);
 
     --accent-color-green: rgb(61 128 104);
+
+    --font-color-black: rgb(0, 0, 0, 0.9);
 }
 
 @font-face {
@@ -25,7 +27,7 @@
 
     background-color: var(--bg-color-paper);
 
-    color: black;
+    color: var(--font-color-black);
 }
 
 nav {
